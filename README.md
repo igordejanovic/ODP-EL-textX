@@ -1,5 +1,6 @@
 # ODP-EL-textX
 
+**Note:** The work on this project is continued at https://github.com/computable-governance/ODP-EL-textX
 
 This is a an implementation of the subset of ODP-EL in textX.
  
@@ -35,6 +36,14 @@ make
 
 Note: you must have [plantuml](https://plantuml.com/) installed and available on
 your PATH.
+
+
+Now, test that provided example is parsed correctly:
+
+``` sh
+textx check examples/consent.odpl
+```
+
 
 
 # Credits
